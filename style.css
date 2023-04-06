@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #6bd614;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+input[type=number], input[type=submit] {
+    padding: 5px;
+    margin: 10px;
+}
